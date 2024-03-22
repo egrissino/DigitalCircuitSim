@@ -1,0 +1,10 @@
+
+
+target_include_directories (${TARGET_NAME} PUBLIC
+    ${CMAKE_CURRENT_LIST_DIR}
+)
+
+target_sources(${TARGET_NAME} PRIVATE
+    ${CMAKE_CURRENT_LIST_DIR}/SN74AHCT86N.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/CD74HC283E.cpp
+)
